@@ -1,0 +1,46 @@
+h2{
+    color:rgb(255, 166, 0);
+    font-size: 30px;
+}
+
+
+body{
+    background-color: #061883c5;
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+#conteúdo{
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+}
+
+
+header{
+    border-bottom: 1px solid grey;
+    background-image: url(imagem/World.jpg);
+}
+
+
+footer{
+    border-top: 1px solid grey;
+    background-color: rgba(86, 201, 227, 0.632);
+    text-align: center;
+    padding: 1px;
+}
+
+
+#nome-usuário{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+.texto-inglês{
+    font-style: italic;
+}
+
